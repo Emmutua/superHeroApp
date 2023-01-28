@@ -2,6 +2,9 @@
 <resources>
 
     <style name="Theme.SuperHero" parent="android:Theme.Material.Light.NoActionBar">
-        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:statusBarColor">@color/green_30</item>
+    </style>
+    <style name="Theme.SuerDark" parent="android:ThemeOverlay.Material.Dark">
+        <item name="android:statusBarColor">@color/black</item>
     </style>
 </resources>
