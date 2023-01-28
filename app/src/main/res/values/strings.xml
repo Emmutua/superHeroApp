@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">SuperHero</string>
+    <string name="hero1">Android Hero</string>
+    <string name="description1">Am good at security config in Android</string>
+    <string name="hero2">Flutter</string>
+    <string name="flutter">A Flutter Dev</string>
+    <string name="description2">Flutter dev</string>
+    <string name="hero3">Kotlin</string>
+    <string name="description3">Backend Dev in Kt</string>
+    <string name="hero4">Jetpack</string>
+    <string name="description4">Jetpack Compose dev</string>
+    <string name="hero5">React</string>
+    <string name="description5">React native</string>
+    <string name="hero6">React Js</string>
+    <string name="description6">Passionate in React Js</string>
 </resources>
