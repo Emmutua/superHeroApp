@@ -5,10 +5,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.Arrangement
-import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material.*
@@ -29,6 +26,7 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             SuperheroesTheme {
+
                 // A surface container using the 'background' color from the theme
                 Surface(
                     modifier = Modifier.fillMaxSize()
@@ -57,8 +55,8 @@ HeroCard(hero = it)
 
 @Composable
 fun AppBar(modifier: Modifier = Modifier) {
-    Row (modifier = Modifier.background(MaterialTheme.colors.surface), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.Center){
-       Text(stringResource(R.string.app_name),style = MaterialTheme.typography.h1,
+    Row (modifier = Modifier , horizontalArrangement = Arrangement.Center){
+        Text(stringResource(R.string.app_name),style = MaterialTheme.typography.h1,
            fontSize = 40.sp)
     }
 }
